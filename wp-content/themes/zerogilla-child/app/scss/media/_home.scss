@@ -1,0 +1,79 @@
+@include min(d-1366) {
+  .banner-container {
+    .banner-content {
+      width: 45%;
+    }
+    .banner-img {
+      margin: 0;
+      width: rem(650px);
+    }
+  }
+  .powerful-storytelling-container {
+    .powerful-storytelling-img {
+      margin: 0;
+      img {
+        width: rem(650px);
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+  .building-image {
+    width: 56% !important;
+  }
+  #timeline {
+    height: rem(430px);
+  }
+}
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .building-image {
+    width: 55% !important;
+  }
+
+  #timeline {
+    height: rem(425px);
+  }
+}
+@media (min-width: 1600px) and (max-width: 1680px) {
+  .building-image {
+    width: 55% !important;
+  }
+  #timeline {
+    height: rem(450px);
+  }
+}
+@media (min-width: 1800px) and (max-width: 1920px) {
+  .building-image {
+    width: 58% !important;
+  }
+  #timeline {
+    height: rem(470px);
+  }
+}
+@media (min-width: 1940px) and (max-width: 3840px) {
+  .building-image {
+    width: 55% !important;
+  }
+  #timeline {
+    height: rem(470px);
+  }
+}
+
+@include max(d-1200) {
+  .powerful-storytelling {
+    &-container {
+      gap: rem(40px);
+    }
+  }
+  .agenda-overview img {
+    width: 75%;
+    object-fit: cover;
+  }
+}
+
+@include max(d-600) {
+
+  
+ 
+}

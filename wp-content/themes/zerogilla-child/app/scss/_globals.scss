@@ -1,0 +1,181 @@
+body,
+html {
+  font-family: $pf-font;
+  line-height: 1;
+  font-size: $rem-size;
+  font-weight: $font-r;
+  color: $p-color;
+  margin: 0;
+  padding: 0;
+  background-color: #010101;
+}
+body.scroll-hidden {
+  overflow: hidden;
+}
+
+* {
+  font-family: $pf-font;
+  box-sizing: border-box;
+}
+
+.d-none {
+  display: none;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+  line-height: 1.2;
+}
+
+.h1,
+h1 {
+  font-weight: $font-r;
+  font-family: $sf-font;
+  font-size: rem(57px);
+  line-height: rem(58px);
+}
+
+.h2,
+h2 {
+  font-weight: $font-sb;
+  font-size: rem(36px);
+  font-family: $sf-font;
+}
+
+.h3,
+h3 {
+  font-weight: $font-sb;
+  font-size: rem(30px);
+}
+
+.h4,
+h4 {
+  font-weight: $font-sb;
+  font-size: rem(24px);
+}
+
+.h5,
+h5 {
+  font-weight: $font-m;
+  font-size: rem(21px);
+}
+
+.h6,
+h6 {
+  font-weight: $font-b;
+  font-size: rem(16px);
+}
+
+p {
+  color: $black;
+  font-weight: $font-r;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+svg {
+  width: auto;
+  height: auto;
+}
+
+.btn,
+select {
+  //input
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn {
+  background-color: $pc;
+  padding: rem(12px) rem(32px);
+  border-radius: rem(6px);
+  border: unset;
+  font-size: rem(18px);
+  font-weight: $font-b;
+  color: $white;
+  cursor: pointer;
+}
+
+.sec-title {
+  font-size: rem(36px);
+  font-weight: $font-b;
+  line-height: 1.4;
+  margin-block: 0 rem(35px);
+  span {
+    font-weight: $font-sb;
+  }
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    width: fit-content;
+    display: block;
+  }
+}
+
+tldx-lmi-shadow-root {
+  display: none;
+}
+
+@media (max-width: 1920px) {
+  html,
+  body {
+    $rem-size: 18px;
+    font-size: $rem-size;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: rem(calc(1280px + 20px));
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1920px) {
+  html,
+  body {
+    $rem-size: 19px;
+    font-size: $rem-size;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: rem(calc(1280px + 20px));
+    margin: 0 auto;
+  }
+}

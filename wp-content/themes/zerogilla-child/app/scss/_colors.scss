@@ -1,0 +1,25 @@
+:root {
+  // ------Root Color-----
+  --pc: #ea3d28;
+  --p-color: #061c3d;
+  // ------Root Background Color-----
+  --bg-color: #fffceb;
+  --footer-bg: #252525;
+  --header-bg: #14131300;
+  --gray-color: #6f6f6f;
+  // ------Common Color-----
+  --white: #FEFEFE;
+  --black: #000000;
+}
+
+// ------Root Color-----
+$pc: var(--pc);
+$p-color: var(--p-color);
+// ------Root Background Color-----
+$bg-color: var(--bg-color);
+$footer-bg: var(--footer-bg);
+$header-bg: var(--header-bg);
+$gray-color: var(--gray-color);
+// ------Common Color-----
+$white: var(--white);
+$black: var(--black);
