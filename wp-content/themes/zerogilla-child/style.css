@@ -1,13 +1,8 @@
-<?php
 /*
-Theme Name: Zerogilla Child
-Description: Child theme for Zerogilla
+Theme Name: lynk Child
+Template: twentytwentyfour
+Description: Child theme based on Twenty Twenty-Four
 Version: 1.0
 */
 
-// Enqueue parent theme styles if needed
-function zerogilla_child_enqueue_styles() {
-    wp_enqueue_style('zerogilla-child-style', get_stylesheet_uri());
-}
-add_action('wp_enqueue_scripts', 'zerogilla_child_enqueue_styles');
-?>
+/* Add your custom styles below */
