@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /wp-zerogila/
+RewriteBase /wp-zerogilla/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wp-zerogila/index.php [L]
+RewriteRule . /wp-zerogilla/index.php [L]
 </IfModule>
 
 # END WordPress
