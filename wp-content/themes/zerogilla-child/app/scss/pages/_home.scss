@@ -7,11 +7,13 @@
 body {
   font-family: "Inter", sans-serif;
   font-size: rem(16px);
-}
+body.menu-open {
+  overflow: hidden;
+}}
 
 /* ================= HEADER ================= */
 .site-header {
-  padding: rem(20px) 0;
+  padding: rem(30px) 0;
   transition: all 0.3s ease-in-out;
   position: fixed;
   top: 0;
@@ -23,7 +25,7 @@ body {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-    padding: rem(15px) 0;
+    padding: rem(30px) 0;
   }
   .container {
     display: flex;
@@ -79,7 +81,7 @@ body {
 
 /* HERO */
 .hero {
-  padding-top: rem(100px);
+  padding-top: rem(130px);
   background: transparent linear-gradient(180deg, #fff4d3 65%, #ffffff00 100%);
   .hero-title {
     margin-bottom: rem(20px);
@@ -1076,7 +1078,7 @@ body {
 
 /* ========= DRIVER BENEFITS ========= */
 .driver-benefits {
-  padding: rem(0px) rem(40px);
+  padding: rem(100px) rem(0px);
   background: #fff !important;
 
   &__wrapper {
@@ -1326,6 +1328,7 @@ body {
   height: rem(1400px);
   background: #111F29;
   overflow: hidden;
+  z-index: -1;
   
   &__bg {
     position: relative;
@@ -1379,7 +1382,7 @@ body {
   ================================ */
   .qr-cards {
     position: fixed;
-    left: 23%;
+    left: 50%;
     top: 50%;
     z-index: 5;
 
@@ -1401,7 +1404,7 @@ body {
     gap: rem(18px);
 
     padding: rem(22px) rem(26px);
-    min-width: rem(360px);
+    min-width: rem(540px);
     border-radius: rem(18px);
 
     text-decoration: none;

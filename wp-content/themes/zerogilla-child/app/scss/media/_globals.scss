@@ -102,8 +102,9 @@
 @include max(d-1200) {
   html,
   body {
-    $rem-size: 13px;
+    $rem-size: 20px;
     font-size: $rem-size;
+    overflow-x: hidden;
   }
   .container,
   .container-lg,
@@ -111,23 +112,8 @@
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: rem(1180px);
-  }
-}
-
-@include max(d-991) {
-  html,
-  body {
-    $rem-size: 10px;
-    font-size: $rem-size;
-  }
-}
-
-@include max(d-820) {
-  html,
-  body {
-    $rem-size: 9px;
-    font-size: $rem-size;
+    max-width: 100%;
+    padding: 0 rem(20px);
   }
 }
 

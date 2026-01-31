@@ -1,4 +1,83 @@
 @include max(d-600) {
+    .site-header {
+        .container {
+            position: relative;
+        }
 
-    
+        .mobile-toggle {
+            display: flex;
+            position: relative;
+            z-index: 101; // Stay above the nav
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100vh;
+            background: #fff;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.4s ease-in-out;
+            z-index: 100;
+            padding: rem(50px);
+            display: flex; // Force display flex for column layout
+            overflow-y: auto;
+
+            &.active {
+                left: 0;
+            }
+
+            a {
+                margin: rem(15px) 0;
+                font-size: rem(22px);
+                font-weight: 600;
+                color: #111f29;
+                text-decoration: none;
+            }
+        }
+
+        .auth {
+            display: none;
+            
+            &.active {
+                display: flex;
+                position: fixed;
+                bottom: rem(60px);
+                left: 0;
+                width: 100%;
+                justify-content: center;
+                gap: rem(15px);
+                z-index: 101;
+                padding: 0 rem(20px);
+
+                button {
+                    flex: 1;
+                    max-width: rem(150px);
+                }
+            }
+        }
+        
+        padding: rem(15px) 0;
+        
+        &.scrolled {
+            padding: rem(15px) 0;
+        }
+
+        .logo img {
+            max-width: rem(100px);
+        }
+
+        .nav {
+            a {
+                font-size: rem(20px);
+            }
+        }
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
 }

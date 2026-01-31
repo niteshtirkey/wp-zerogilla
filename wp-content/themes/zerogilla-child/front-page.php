@@ -5,6 +5,12 @@
     <div class="container">
       <div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="Lynk Taxi Service Logo"> </div>
 
+      <button class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <nav class="nav">
         <a href="#">Business</a>
         <a href="#">Personal</a>
@@ -173,11 +179,10 @@
         </div>
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="App download icon"></div>
-          <h3>Get the App</h3>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Book-Online.svg" alt="App download icon"></div>
+          <h3>Book Online</h3>
           <p>
-            Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
-            and add a card for effortless contactless payments.
+            Easily book from any desktop or mobile device. Book as a guest for a once off booking or create a Personal or Business account.
           </p>
           <div class="info-cta">
             <button class="primary">Book Online</button>
@@ -192,11 +197,11 @@
       <div class="booking-method__content">
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="App download icon"></div>
-          <h3>Get the App</h3>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Call1.svg" alt="App download icon"></div>
+          <h3>Call to Book</h3>
           <p>
-            Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
-            and add a card for effortless contactless payments.
+            We’re always here to take your booking. Speak with one of our booking support team by phone. Save the number
+            01 8 20 20 20
           </p>
           <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call.svg" alt="Call now">
           </a>
@@ -216,7 +221,7 @@
       </h2>
 
 
-      
+
       <div class="slider-controls">
         <button class="arrow prev">‹</button>
         <button class="arrow next">›</button>
@@ -518,7 +523,7 @@
               <div class="text">
                 <h4>0% commission on cash, card* & hotel fares</h4>
                 <p>
-               Stop paying high commissions on every booking. All cash, card and hotel fares are free with Lynk. You only pay commission on account fares.
+                  Stop paying high commissions on every booking. All cash, card and hotel fares are free with Lynk. You only pay commission on account fares.
                 </p>
               </div>
             </li>
@@ -528,7 +533,7 @@
               <div class="text">
                 <h4>Driver support team</h4>
                 <p>
-               Have an issue or need assistance with a booking? Lynk has a driver support team dedicated to helping drivers 24/7.
+                  Have an issue or need assistance with a booking? Lynk has a driver support team dedicated to helping drivers 24/7.
                 </p>
               </div>
             </li>
@@ -537,7 +542,7 @@
               <div class="text">
                 <h4>Better cost management for you</h4>
                 <p>
-             Gain full access from only €85 per week. Unlimited earnings with bookings available Mon –Sun. Options also available for Pay Per Job drivers.
+                  Gain full access from only €85 per week. Unlimited earnings with bookings available Mon –Sun. Options also available for Pay Per Job drivers.
                 </p>
               </div>
             </li>
@@ -546,7 +551,7 @@
               <div class="text">
                 <h4>Easy to use app</h4>
                 <p>
-               Simple and user friendly driver app which shows your position in your zone and upcoming prebookings available.
+                  Simple and user friendly driver app which shows your position in your zone and upcoming prebookings available.
                 </p>
               </div>
             </li>
@@ -568,168 +573,168 @@
       </div>
     </div>
   </section>
-<section class="customer-ratings">
-  <div class="customer-ratings__wrapper">
+  <section class="customer-ratings">
+    <div class="customer-ratings__wrapper">
 
-    <!-- TITLE -->
-    <div class="customer-ratings__header">
-      <h2>Customer <span>Ratings</span></h2>
+      <!-- TITLE -->
+      <div class="customer-ratings__header">
+        <h2>Customer <span>Ratings</span></h2>
 
-      <div class="summary">
-        <strong>EXCELLENT</strong>
-        <div class="stars">★★★★★</div>
-        <p>Based on <b>4231 reviews</b></p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+        <div class="summary">
+          <strong>EXCELLENT</strong>
+          <div class="stars">★★★★★</div>
+          <p>Based on <b>4231 reviews</b></p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+        </div>
       </div>
+
+      <!-- SLIDER -->
+      <div class="ratings-slider">
+
+        <!-- CARD -->
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar g">G</div>
+            <h4>Gabriel Fabregas</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>On time and helpful driver</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar n">N</div>
+            <h4>Noeleen Cronan</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Phoned for taxi very straight forward, only waited 5 min.</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <img class="photo" src="https://randomuser.me/api/portraits/men/32.jpg">
+            <h4>Edward Doyle</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Prompt and very courteous drivers</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar j">J</div>
+            <h4>James Flynn</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Driver Maurice was a gentleman. Very pleasant experience.</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar g">G</div>
+            <h4>Gabriel Fabregas</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>On time and helpful driver</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar n">N</div>
+            <h4>Noeleen Cronan</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Phoned for taxi very straight forward, only waited 5 min.</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <img class="photo" src="https://randomuser.me/api/portraits/men/32.jpg">
+            <h4>Edward Doyle</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Prompt and very courteous drivers</p>
+        </div>
+
+        <div class="rating-card">
+          <div class="top">
+            <div class="avatar j">J</div>
+            <h4>James Flynn</h4>
+            <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>Driver Maurice was a gentleman. Very pleasant experience.</p>
+        </div>
+
+      </div>
+
+      <!-- ARROWS -->
+      <div class="slider-arrows">
+        <button class="arrow prev"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/left-arrow.svg" alt="Arrow icon"></button>
+        <button class="arrow next"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right-arrow.svg" alt="Arrow icon"></button>
+      </div>
+
     </div>
+  </section>
 
-    <!-- SLIDER -->
-    <div class="ratings-slider">
+  <section class="ly-app-scanner" id="ly-app-scanner">
+    <div class="ly-app-scanner__inner">
 
-      <!-- CARD -->
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar g">G</div>
-          <h4>Gabriel Fabregas</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>On time and helpful driver</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar n">N</div>
-          <h4>Noeleen Cronan</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Phoned for taxi very straight forward, only waited 5 min.</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <img class="photo" src="https://randomuser.me/api/portraits/men/32.jpg">
-          <h4>Edward Doyle</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Prompt and very courteous drivers</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar j">J</div>
-          <h4>James Flynn</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Driver Maurice was a gentleman. Very pleasant experience.</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar g">G</div>
-          <h4>Gabriel Fabregas</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>On time and helpful driver</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar n">N</div>
-          <h4>Noeleen Cronan</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Phoned for taxi very straight forward, only waited 5 min.</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <img class="photo" src="https://randomuser.me/api/portraits/men/32.jpg">
-          <h4>Edward Doyle</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Prompt and very courteous drivers</p>
-      </div>
-
-      <div class="rating-card">
-        <div class="top">
-          <div class="avatar j">J</div>
-          <h4>James Flynn</h4>
-          <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
-        </div>
-        <div class="stars">★★★★★</div>
-        <p>Driver Maurice was a gentleman. Very pleasant experience.</p>
-      </div>
-
-    </div>
-
-    <!-- ARROWS -->
-    <div class="slider-arrows">
-      <button class="arrow prev"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/left-arrow.svg" alt="Arrow icon"></button>
-      <button class="arrow next"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right-arrow.svg" alt="Arrow icon"></button>
-    </div>
-
-  </div>
-</section>
-
-<section class="ly-app-scanner" id="ly-app-scanner">
-  <div class="ly-app-scanner__inner">
-
-    <!-- Background App Screens -->
-    <div class="app-grid">
-      <div class="app-col">
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
-      </div>
-      <div class="app-col">
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/5xx-1.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
-      </div>
-      <div class="app-col">
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+      <!-- Background App Screens -->
+      <div class="app-grid">
+        <div class="app-col">
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx.webp" />
           <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
-      </div>
-      <div class="app-col">
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
-        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
+        </div>
+        <div class="app-col">
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/5xx-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
+        </div>
+        <div class="app-col">
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
           <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+        </div>
+        <div class="app-col">
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+        </div>
       </div>
+
+      <!-- Sticky QR Cards -->
+      <div class="qr-cards">
+        <a href="#" class="qr-card passenger">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Passenger-App.png" />
+          <div>
+            <h4>Lynk Passenger App</h4>
+            <p>Scan QR code to download</p>
+          </div>
+        </a>
+
+        <a href="#" class="qr-card driver">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Untitled-presentation-19.png" />
+          <div>
+            <h4>Lynk Driver App</h4>
+            <p>Scan QR code to download</p>
+          </div>
+        </a>
+      </div>
+
     </div>
-
-    <!-- Sticky QR Cards -->
-    <div class="qr-cards">
-      <a href="#" class="qr-card passenger">
-        <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Passenger-App.png" />
-        <div>
-          <h4>Lynk Passenger App</h4>
-          <p>Scan QR code to download</p>
-        </div>
-      </a>
-
-      <a href="#" class="qr-card driver">
-        <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Untitled-presentation-19.png" />
-        <div>
-          <h4>Lynk Driver App</h4>
-          <p>Scan QR code to download</p>
-        </div>
-      </a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
 
 </main>
@@ -744,44 +749,49 @@
     }
   });
 
-jQuery(function ($) {
-  const $section = $('#ly-app-scanner');
-  const $cards = $('.qr-cards');
+  // QR Cards functionality moved to all.js to prevent conflicts
+  // jQuery(function ($) {
+  //   const $section = $('#ly-app-scanner');
+  //   const $cards = $('.qr-cards');
 
-  function syncCardsWithScroll() {
-    const winTop = $(window).scrollTop();
-    const winH = $(window).height();
+  //   function syncCardsWithScroll() {
+  //     if (window.innerWidth <= 600) {
+  //       $cards.css({
+  //         'transform': 'none',
+  //         'opacity': '1',
+  //         'visibility': 'visible'
+  //       });
+  //       return;
+  //     }
+  //     const winTop = $(window).scrollTop();
+  //     const winH = $(window).height();
 
-    const secTop = $section.offset().top;
-    const secH = $section.outerHeight();
-    const secBottom = secTop + secH;
+  //     const secTop = $section.offset().top;
+  //     const secH = $section.outerHeight();
+  //     const secBottom = secTop + secH;
 
-    // Only move cards while inside section
-    if (winTop + winH > secTop && winTop < secBottom) {
-      // Scroll progress inside section (0 → 1)
-      let progress =
-        (winTop + winH / 2 - secTop) / secH;
+  //     // Only move cards while inside section
+  //     if (winTop + winH > secTop && winTop < secBottom) {
+  //       // Scroll progress inside section (0 → 1)
+  //       let progress =
+  //         (winTop + winH / 2 - secTop) / secH;
 
-      // Clamp between 0 and 1
-      progress = Math.max(0, Math.min(1, progress));
+  //       // Clamp between 0 and 1
+  //       progress = Math.max(0, Math.min(1, progress));
 
-      // Translate range (adjust if needed)
-      const translateY = (progress - 0.5) * 220;
+  //       // Translate range (adjust if needed)
+  //       const translateY = (progress - 0.5) * 220;
 
-      $cards.css(
-        'transform',
-        `translateY(${translateY}px)`
-      );
-    }
-  }
+  //       $cards.css(
+  //         'transform',
+  //         `translateY(${translateY}px)`
+  //       );
+  //     }
+  //   }
 
-  $(window).on('scroll', syncCardsWithScroll);
-  syncCardsWithScroll(); // run on load
-});
-
-
-
-
+  //   $(window).on('scroll', syncCardsWithScroll);
+  //   syncCardsWithScroll(); // run on load
+  // });
 </script>
 
 <?php get_footer(); ?>

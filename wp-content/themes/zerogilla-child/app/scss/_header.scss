@@ -1,0 +1,24 @@
+.site-header {
+  .mobile-toggle {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    
+    span {
+      width: 25px;
+      height: 3px;
+      background: #333;
+      margin: 3px 0;
+      transition: 0.3s;
+    }
+    
+    &.active {
+      span:nth-child(1) { transform: rotate(-45deg) translate(-5px, 6px); }
+      span:nth-child(2) { opacity: 0; }
+      span:nth-child(3) { transform: rotate(45deg) translate(-5px, -6px); }
+    }
+  }
+}

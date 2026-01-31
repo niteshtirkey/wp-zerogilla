@@ -1,4 +1,19 @@
 jQuery(document).ready(function($) {
+    // Mobile toggle functionality
+    $('.mobile-toggle').on('click', function() {
+        $(this).toggleClass('active');
+        $('.nav').toggleClass('active');
+        $('.auth').toggleClass('active');
+        $('body').toggleClass('menu-open');
+    });
+    
+    // Close menu when clicking nav links
+    $('.nav a').on('click', function() {
+        $('.mobile-toggle').removeClass('active');
+        $('.nav').removeClass('active');
+        $('.auth').removeClass('active');
+        $('body').removeClass('menu-open');
+    });
     let currentTab = 0;
     const tabs = $('.service-tab');
     const images = $('.service-image');
@@ -17,7 +32,7 @@ jQuery(document).ready(function($) {
         tabs.eq(index).addClass('active');
         images.eq(index).addClass('active');
         
-        // tabs.eq(index).find('.progress-fill').animate({width: '100%'}, 10000);
+        tabs.eq(index).find('.progress-fill').animate({width: '100%'}, 10000);
     }
 
     function nextTab() {
@@ -30,28 +45,48 @@ jQuery(document).ready(function($) {
 
     $('.service-tabs').hover(
         function() { clearInterval(interval); },
-        // function() { interval = setInterval(nextTab, 10000); }
+        function() { interval = setInterval(nextTab, 10000); }
     );
 
     tabs.click(function() {
         currentTab = $(this).index();
         showTab(currentTab);
         clearInterval(interval);
-        // interval = setInterval(nextTab, 10000);
+        interval = setInterval(nextTab, 10000);
     });
 
 
 
 
-    // caard slide 
-
-   
+    // Travel cards slider with responsive behavior
   let currentIndex = 0;
-  const cardWidth = $('.travel-card').outerWidth(true);
-  const totalCards = $('.travel-card').length;
-  const visibleCards = 3;
+  let visibleCards = getVisibleCards();
+  
+  function getVisibleCards() {
+    const width = window.innerWidth || $(window).width();
+    if (width <= 600) {
+      return 1;
+    } else if (width <= 1200) {
+      return 2;
+    } else {
+      return 3;
+    }
+  }
+  
+  function updateSlider() {
+    visibleCards = getVisibleCards();
+    const totalCards = $('.travel-card').length;
+    
+    // Reset index if it's out of bounds
+    if (currentIndex > totalCards - visibleCards) {
+      currentIndex = Math.max(0, totalCards - visibleCards);
+    }
+    
+    slideTrack();
+  }
 
   $('.next').on('click', function () {
+    const totalCards = $('.travel-card').length;
     if (currentIndex < totalCards - visibleCards) {
       currentIndex++;
       slideTrack();
@@ -66,11 +101,20 @@ jQuery(document).ready(function($) {
   });
 
   function slideTrack() {
+    const $slider = $('.travel-slider');
+    const sliderWidth = $slider.width();
+    const moveDistance = sliderWidth / visibleCards;
+    
     $('.travel-track').css(
       'transform',
-      `translateX(-${currentIndex * cardWidth}px)`
+      `translateX(-${currentIndex * moveDistance}px)`
     );
   }
+  
+  // Update slider on window resize
+  $(window).on('resize', function() {
+    updateSlider();
+  });
 
   // logo slide 
 
@@ -104,7 +148,7 @@ jQuery(document).ready(function($) {
     dots: false,
     infinite: true,
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
+      { breakpoint: 1025, settings: { slidesToShow: 3 } },
       { breakpoint: 768, settings: { slidesToShow: 2 } },
       { breakpoint: 480, settings: { slidesToShow: 1 } }
     ]
@@ -118,30 +162,45 @@ jQuery(document).ready(function($) {
     $('.ratings-slider').slick('slickPrev');
   });
 
-  // QR Cards scroll animation
+  // QR Cards scroll animation and positioning
   function checkQRCards() {
     const section = $('#ly-app-scanner');
     const cards = $('.qr-cards');
+    const heroSection = $('.hero');
     
     if (section.length) {
+      const winTop = $(window).scrollTop();
+      const winH = $(window).height();
       const sectionTop = section.offset().top;
-      const sectionBottom = sectionTop + section.outerHeight();
-      const windowTop = $(window).scrollTop();
-      const windowBottom = windowTop + $(window).height();
+      const sectionHeight = section.outerHeight();
+      const sectionBottom = sectionTop + sectionHeight;
       
-      // Show cards when section starts appearing and keep visible until section ends
-      if (windowTop < sectionBottom && windowBottom > sectionTop) {
-        cards.css('opacity', '1');
+      // Mobile: only show when in ly-app-scanner section and not in hero
+      if (window.innerWidth <= 600) {
+        if (winTop + winH > sectionTop && winTop < sectionBottom) {
+          cards.css({'visibility': 'visible', 'opacity': '1'});
+        } else {
+          cards.css({'visibility': 'hidden', 'opacity': '0'});
+        }
       } else {
-        cards.css('opacity', '0');
+        // Desktop/tablet behavior
+        if (winTop + winH > sectionTop && winTop < sectionBottom) {
+          cards.css('opacity', '1');
+          let progress = (winTop + winH / 2 - sectionTop) / sectionHeight;
+          progress = Math.max(0, Math.min(1, progress));
+          const translateY = (progress - 0.5) * 220;
+          cards.css('transform', `translate(-50%, -50%) translateY(${translateY}px)`);
+        } else {
+          cards.css('opacity', '0');
+        }
       }
     }
   }
 
   $(window).on('scroll', checkQRCards);
+  $(window).on('resize', checkQRCards); // Also check on resize
   checkQRCards(); // Check on load
 
 
 
-  
 });
