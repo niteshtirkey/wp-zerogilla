@@ -47,8 +47,10 @@ h1 {
 .h2,
 h2 {
   font-weight: $font-sb;
-  font-size: rem(36px);
+  font-size: rem(56px);
+  line-height: rem(73px);
   font-family: $sf-font;
+  font-weight: 700;
 }
 
 .h3,
@@ -114,35 +116,95 @@ select {
   appearance: none;
 }
 
-.btn {
-  background-color: $pc;
-  padding: rem(12px) rem(32px);
-  border-radius: rem(6px);
-  border: unset;
-  font-size: rem(18px);
-  font-weight: $font-b;
-  color: $white;
-  cursor: pointer;
-}
 
-.sec-title {
-  font-size: rem(36px);
-  font-weight: $font-b;
-  line-height: 1.4;
-  margin-block: 0 rem(35px);
-  span {
-    font-weight: $font-sb;
-  }
-}
-.btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  a {
-    width: fit-content;
-    display: block;
-  }
-}
+ .primary {
+          background: #ffcc00;
+          border: none;
+          padding: rem(10px) rem(22px);
+          border-radius: rem(30px);
+          border: rem(2px) solid #ffcc00;
+          cursor: pointer;
+          font-size: rem(13px);
+          font-weight: 700;
+          line-height: rem(13px);
+          &:hover {
+            background: #fff;
+
+            transform: translateY(rem(-1px));
+            // box-shadow: 0 rem(10px) rem(24px) rgba(255, 204, 0, 0.45);
+          }
+        }
+
+        .outline {
+          background: transparent;
+          border: rem(2px) solid #ffcc00;
+          padding: rem(10px) rem(22px);
+          border-radius: rem(30px);
+          font-size: rem(13px);
+          font-weight: 700;
+          line-height: rem(13px);
+          cursor: pointer;
+
+          &:hover {
+            background: #ffcc00;
+            transform: translateY(rem(-1px));
+          }
+        }
+.call {
+          display: inline-flex;
+          align-items: center;
+          gap: rem(8px);
+          border: rem(2px) solid #ffcc00;
+          padding-left: rem(20px);
+          padding-right: rem(4px);
+          padding-top: rem(3px);
+          padding-bottom: rem(3px);
+          border-radius: rem(30px);
+          text-decoration: none;
+          color: #000;
+          width: fit-content;
+          font-size: rem(19px);
+          line-height: rem(20px);
+          font-weight: 900;
+          strong {
+            display: flex;
+            gap: rem(10px);
+          }
+          img {
+            background-color: #ffcc00;
+            padding: rem(5px);
+            border-radius: 50%;
+            max-width: rem(30px);
+          }
+          &:hover {
+            background: #ffcc00;
+            transform: translateY(rem(-2px));
+            box-shadow: 0 rem(8px) rem(20px) rgba(255, 204, 0, 0.35);
+            img {
+              background-color: #fff;
+            }
+          }
+        }
+
+         .business-btn {
+        font-size: rem(13px);
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: rem(10px);
+        display: flex;
+        gap: rem(5px);
+        padding: 0;
+        img {
+          max-width: rem(16px);
+          transition: transform 0.3s ease;
+        }
+        &:hover {
+          text-decoration: underline;
+          img {
+            transform: translateX(rem(2px));
+          }
+        }
+      }
 
 tldx-lmi-shadow-root {
   display: none;
