@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
         tabs.eq(index).addClass('active');
         images.eq(index).addClass('active');
         
-        tabs.eq(index).find('.progress-fill').animate({width: '100%'}, 5000);
+        tabs.eq(index).find('.progress-fill').animate({width: '100%'}, 10000);
     }
 
     function nextTab() {
@@ -26,17 +26,17 @@ jQuery(document).ready(function($) {
     }
 
     showTab(0);
-    interval = setInterval(nextTab, 5000);
+    interval = setInterval(nextTab, 10000);
 
     $('.service-tabs').hover(
         function() { clearInterval(interval); },
-        function() { interval = setInterval(nextTab, 5000); }
+        function() { interval = setInterval(nextTab, 10000); }
     );
 
     tabs.click(function() {
         currentTab = $(this).index();
         showTab(currentTab);
         clearInterval(interval);
-        interval = setInterval(nextTab, 5000);
+        interval = setInterval(nextTab, 10000);
     });
 });
