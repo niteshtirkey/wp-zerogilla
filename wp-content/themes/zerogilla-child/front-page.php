@@ -3,7 +3,7 @@
 <main class="site-main homepage">
   <header class="site-header">
     <div class="container">
-      <div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="Book taxi"> </div>
+      <div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="Lynk Taxi Service Logo"> </div>
 
       <nav class="nav">
         <a href="#">Business</a>
@@ -35,7 +35,7 @@
 
           <!-- BOOK -->
           <div class="service-tab active" data-tab="book">
-            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Book-1.svg" alt="Book taxi"> <span>Book</span></div>
+            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Book-1.svg" alt="Book taxi icon"> <span>Book</span></div>
 
             <div class="tab-body">
               <h2>Book for Now or Later</h2>
@@ -115,7 +115,7 @@
         Call
         <a href="tel:018202020" class="call-cta__number">
           01 8 20 20 20
-          <span class="call-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call-button.webp" alt="Call button icon"></span>
+          <span class="call-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call-button.webp" alt="App download icon"></span>
         </a>
       </h2>
 
@@ -145,7 +145,7 @@
 
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="App download icon"></div>
 
           <h3>Get the App</h3>
 
@@ -159,7 +159,7 @@
 
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-2.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-2.webp" alt="App download icon">
         </div>
 
       </div>
@@ -169,11 +169,11 @@
       <div class="booking-method__content">
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-1.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-1.webp" alt="App download icon">
         </div>
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="App download icon"></div>
           <h3>Get the App</h3>
           <p>
             Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
@@ -192,7 +192,7 @@
       <div class="booking-method__content">
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="App download icon"></div>
           <h3>Get the App</h3>
           <p>
             Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
@@ -203,7 +203,7 @@
         </div>
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image.webp" alt="App download icon">
         </div>
       </div>
     </div>
@@ -227,7 +227,7 @@
       <div class="travel-track">
 
         <div class="travel-card">
-          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Any-Taxi-1.webp" alt="">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Any-Taxi-1.webp" alt="Any Taxi service">
           <div class="t-cont">
             <h3>Any Taxi</h3>
             <p>• Quickest option</p>
@@ -238,7 +238,7 @@
         </div>
 
         <div class="travel-card">
-          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Saloon.webp" alt="">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Saloon.webp" alt="Saloon taxi service">
           <div class="t-cont">
             <h3>Saloon</h3>
             <p>• 4 seater taxi</p>
@@ -249,7 +249,7 @@
         </div>
 
         <div class="travel-card">
-          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Van.webp" alt="">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Van.webp" alt="Van taxi service">
           <div class="t-cont">
             <h3>Van</h3>
             <p>• 6 – 8 seater taxi</p>
@@ -260,7 +260,7 @@
         </div>
 
         <div class="travel-card">
-          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Accessible.webp" alt="">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Accessible.webp" alt="Accessible taxi service">
           <div class="t-cont">
             <h3>Accessible</h3>
             <p>• Wheelchair accessible taxi</p>
@@ -272,7 +272,7 @@
         </div>
 
         <div class="travel-card">
-          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Electric-Hybrid.webp" alt="">
+          <img src="https://www.lynk.ie/wp-content/uploads/2025/05/Electric-Hybrid.webp" alt="Electric and Hybrid taxi service">
           <div class="t-cont">
             <h3>Electric / Hybrid</h3>
             <p>• Eco-friendly option</p>
@@ -294,9 +294,7 @@
         <span class="office-app__label">The Office Taxi App</span>
 
         <h2>
-          The ease of an app –<br />
-          designed for desks, offices<br />
-          and receptions
+          The ease of an app – designed for desks, offices and receptions
         </h2>
 
         <p>
@@ -316,7 +314,7 @@
       <div class="office-app__visual">
         <div class="blob"></div>
 
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Save_Time_3.webp" alt="Call button icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Save_Time_3.webp" alt="App download icon">
       </div>
 
     </div>
@@ -412,55 +410,55 @@
 
       <!-- ORIGINAL LOGOS -->
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="Partner company logo">
       </div>
 
       <!-- DUPLICATE (IMPORTANT) -->
 
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="Partner company logo">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="Partner company logo">
       </div>
 
     </div>

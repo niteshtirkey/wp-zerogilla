@@ -166,6 +166,7 @@ select {
           font-size: rem(19px);
           line-height: rem(20px);
           font-weight: 900;
+          transition: all 0.3s ease;
           strong {
             display: flex;
             gap: rem(10px);
@@ -175,6 +176,7 @@ select {
             padding: rem(5px);
             border-radius: 50%;
             max-width: rem(30px);
+            transition: background-color 0.3s ease;
           }
           &:hover {
             background: #ffcc00;
