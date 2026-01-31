@@ -122,7 +122,7 @@ body {
   z-index: 10;
 
   .service-tab {
-    background: #fff;
+    background: #fff !important;
     border-radius: rem(16px);
     padding: rem(22px);
     margin-bottom: rem(16px);
@@ -142,7 +142,7 @@ body {
     .tab-body {
       max-height: 0;
       opacity: 0;
-      transform: translateY(0);
+      transform: translate(-50%, -50%);
 
       pointer-events: none;
       overflow: hidden;
@@ -278,7 +278,7 @@ body {
 }
 
 .call-cta {
-  background: #fff;
+  background: #fff !important;
   padding: rem(100px) rem(20px);
   text-align: center;
 
@@ -355,9 +355,9 @@ body {
     transition: all 0.3s ease;
     border: rem(2px) solid #ffcc00;
     &:hover {
-      transform: scale(1.05);
-      background: #fff;
-    }
+      transform: scale(1.05) !important;
+      background: #fff !important;
+      color: #000 !important;    }
   }
 }
 
@@ -377,7 +377,6 @@ body {
     margin-bottom: rem(80px);
 
     h2 {
-
       span {
         position: relative;
         z-index: 1;
@@ -452,7 +451,7 @@ body {
     padding-bottom: rem(60px);
 
     h2 {
-margin: auto;
+      margin: auto;
       span {
         color: #ffcc00;
       }
@@ -687,7 +686,7 @@ margin: auto;
 
 /* ================= BENEFITS SECTION ================= */
 .benefits {
-  background: #fff;
+  background: #fff !important;
   padding: rem(80px) rem(40px);
   color: #0b1f33;
 
@@ -794,7 +793,7 @@ margin: auto;
 
 /* ========= SECTION ========= */
 .solutions {
-  background: #fff;
+  background: #fff !important;
   padding: rem(0px) rem(40px);
   text-align: center;
 
@@ -808,7 +807,6 @@ margin: auto;
     margin-bottom: rem(60px);
 
     h2 {
-
       span {
         position: relative;
         z-index: 1;
@@ -872,7 +870,7 @@ margin: auto;
   }
 
   &:hover {
-    background: #fff; // 👈 card hover white
+    background: #fff !important; // 👈 card hover white
     transform: translateY(rem(-6px));
     box-shadow: 0 rem(18px) rem(40px) rgba(0, 0, 0, 0.08);
   }
@@ -912,7 +910,7 @@ margin: auto;
     font-size: rem(14px);
     color: #000;
     transition: all 0.35s ease; // 👈 smooth rotation
-     transform: rotate(45deg);
+    transform: rotate(45deg);
   }
 
   &:hover {
@@ -929,14 +927,14 @@ margin: auto;
 /* ========= LOGO MARQUEE ========= */
 .logo-marquee {
   position: relative;
-  background: #fff;
+  background: #fff !important;
   padding: rem(60px) 0;
   overflow: hidden;
 
   /* LEFT BLUR */
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     width: rem(120px);
@@ -989,12 +987,10 @@ margin: auto;
   }
 }
 
-
-
 /* ================= DRIVERS CTA ================= */
 .drivers-cta {
   padding: rem(60px) rem(40px);
-  background: #fff;
+  background: #fff !important;
 
   &__inner {
     max-width: rem(1200px);
@@ -1004,14 +1000,11 @@ margin: auto;
     text-align: center;
 
     /* soft gradient like design */
-    background: linear-gradient(
-      135deg,
-      #fde3b0 0%,
-      #fff3cf 40%,
-      #e8f4dd 100%
-    );
+    background: linear-gradient(135deg, #fde3b0 0%, #fff3cf 40%, #e8f4dd 100%);
   }
-
+  .call-cta__btn , .business-btn{
+    font-size: rem(16px);
+  }
   h2 {
     font-size: rem(48px);
     font-weight: 800;
@@ -1023,7 +1016,7 @@ margin: auto;
       z-index: 1;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: rem(6px);
@@ -1081,11 +1074,10 @@ margin: auto;
   }
 }
 
-
 /* ========= DRIVER BENEFITS ========= */
 .driver-benefits {
   padding: rem(0px) rem(40px);
-  background: #fff;
+  background: #fff !important;
 
   &__wrapper {
     max-width: rem(1200px);
@@ -1098,13 +1090,12 @@ margin: auto;
     margin-bottom: rem(80px);
 
     h2 {
-
       span {
         position: relative;
         z-index: 1;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           bottom: rem(6px);
@@ -1153,22 +1144,26 @@ margin: auto;
 
         .text {
           h4 {
-            font-size: rem(18px);
+            font-size: rem(22px);
+            line-height: rem(29px);
             font-weight: 700;
             margin-bottom: rem(6px);
             color: #0b1f33;
           }
 
           p {
-            font-size: rem(15px);
-            line-height: 1.6;
+            font-size: rem(16px);
+            line-height: rem(22px);
             color: #444;
           }
         }
       }
-      .driver-cta{
+      .driver-cta {
         display: flex;
         align-items: center;
+        .primary , .business-btn{
+          font-size: rem(16px);
+        }
       }
     }
   }
@@ -1183,11 +1178,11 @@ margin: auto;
   }
 }
 
-
-
 .customer-ratings {
   padding: rem(120px) rem(40px);
   background: #f7f7f7;
+  position: relative;
+  z-index: 22;
 
   &__wrapper {
     max-width: rem(1300px);
@@ -1199,14 +1194,10 @@ margin: auto;
     margin-bottom: rem(60px);
 
     h2 {
-      font-size: rem(48px);
-      font-weight: 800;
-      margin-bottom: rem(20px);
-
       span {
         position: relative;
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           bottom: rem(6px);
@@ -1219,18 +1210,37 @@ margin: auto;
     }
 
     .summary {
-      .stars { color: #ffcc00; font-size: rem(20px); }
-      img { height: rem(28px); margin-top: rem(10px); }
+      strong{
+        font-size: rem(18px);
+        line-height: rem(26px);
+        font-weight: 600;
+      }
+
+      p{
+        font-size: rem(14px);
+        line-height: rem(20px);
+        padding-bottom: rem(10px);
+      }
+      .stars {
+        color: #ffcc00;
+        font-size: rem(20px);
+      }
+      img {
+        height: rem(35px);
+        margin-top: rem(10px);
+        margin: auto;
+      }
     }
   }
 
   .ratings-slider {
     .rating-card {
-      background: #fff;
+      background: #fff !important;
       border-radius: rem(20px);
       padding: rem(24px);
       margin: rem(10px);
-      box-shadow: 0 rem(10px) rem(30px) rgba(0,0,0,0.08);
+      min-height: rem(200px);
+      // box-shadow: 0 rem(10px) rem(30px) rgba(0, 0, 0, 0.08);
 
       .top {
         display: flex;
@@ -1294,10 +1304,143 @@ margin: auto;
       color: #000;
       font-size: rem(22px);
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
+      img {
+        max-width: rem(16px);
+        max-height: rem(16px);
+      }
       &:hover {
         background: #ffcc00;
       }
+    }
+  }
+}
+/* ===============================
+   APP SCANNER SECTION
+================================ */
+.ly-app-scanner {
+  position: relative;
+  height: rem(1400px);
+  background: #111F29;
+  overflow: hidden;
+  
+  &__bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  &::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    pointer-events: none;
+    z-index: 1;    top: 0;
+    background: transparent linear-gradient(180deg, #111F29 0%, #111F2900 100%) 0% 0% no-repeat padding-box;
+  }
+
+  &::before{
+    bottom: 0;
+    background: transparent linear-gradient(0deg, #111F29 0%, #111F2900 100%) 0% 0% no-repeat padding-box;
+  }
+
+  /* ===============================
+     BACKGROUND APP PREVIEW GRID
+  ================================ */
+  .app-grid {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    gap: rem(40px);
+    padding: rem(140px) rem(80px);
+    opacity: 0.25;
+    pointer-events: none;
+
+    .app-col {
+      display: flex;
+      flex-direction: column;
+      gap: rem(40px);
+
+      img {
+        width: rem(320px);
+        border-radius: rem(22px);
+        transform: rotate(-8deg);
+      }
+    }
+  }
+
+  /* ===============================
+     STICKY QR CARDS (ALWAYS VISIBLE)
+  ================================ */
+  .qr-cards {
+    position: fixed;
+    left: 23%;
+    top: 50%;
+    z-index: 5;
+
+    display: flex;
+    justify-content: center;
+    gap: rem(32px);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transform: translate(-50%, -50%);
+    transition: transform 0.25s ease-out;
+  }
+
+  /* ===============================
+     QR CARD BASE
+  ================================ */
+  .qr-card {
+    display: flex;
+    align-items: center;
+    gap: rem(18px);
+
+    padding: rem(22px) rem(26px);
+    min-width: rem(360px);
+    border-radius: rem(18px);
+
+    text-decoration: none;
+    color: #0b1f33;
+    background: #ffffff;
+
+    box-shadow: 0 rem(18px) rem(40px) rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(rem(-4px));
+    }
+
+    img {
+      width: rem(88px);
+      height: rem(88px);
+      flex-shrink: 0;
+    }
+
+    h4 {
+      font-size: rem(30px);
+      font-weight: 700;
+      margin-bottom: rem(6px);
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: rem(16px);
+      line-height: 1.4;
+    }
+
+    /* Passenger Card */
+    &.passenger {
+      background: #ffcc00;
+    }
+
+    /* Driver Card */
+    &.driver {
+      background: #ffffff;
     }
   }
 }

@@ -1,0 +1,137 @@
+.site-footer {
+  background: #fff4d6;
+  padding: rem(80px) rem(60px) rem(30px);
+  font-family: Arial, sans-serif;
+  color: #1d1d1f;
+  position: relative;
+  z-index: 22;
+
+  .footer-container {
+    display: flex;
+    gap: rem(60px);
+  }
+
+  /* Brand */
+  .footer-brand {
+    max-width: rem(280px);
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: rem(10px);
+      font-size: rem(28px);
+      font-weight: 700;
+      margin-bottom: rem(16px);
+    }
+
+    .footer-desc {
+      font-size: rem(14px);
+      margin-bottom: rem(20px);
+    }
+
+    .store-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: rem(12px);
+    }
+
+    .store-btn {
+      width: rem(180px);
+      padding: rem(10px) rem(18px);
+      border: rem(2px) solid #f4b400;
+      border-radius: rem(40px);
+      text-decoration: none;
+      color: #000;
+      font-size: rem(12px);
+      display: flex;
+      flex-direction: column;
+
+      &:hover{
+        background: #fc0;
+      }
+
+      strong {
+        font-size: rem(15px);
+      }
+    }
+  }
+
+  /* Links */
+  .footer-links {
+    display: flex;
+    gap: rem(50px);
+    flex-wrap: wrap;
+  }
+
+  .footer-col {
+    min-width: rem(140px);
+
+    h4 {
+      font-size: rem(14px);
+      font-weight: 700;
+      margin-bottom: rem(14px);
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: rem(10px);
+
+        a {
+          font-size: rem(14px);
+          color: #1d1d1f;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-legal {
+    min-width: rem(200px);
+  }
+
+  .footer-social {
+    margin-top: rem(20px);
+
+    h4 {
+      font-size: rem(14px);
+      margin-bottom: rem(10px);
+    }
+
+    .social-icons {
+      display: flex;
+      gap: rem(16px);
+
+      a {
+        font-size: rem(16px);
+        color: #1d1d1f;
+        text-decoration: none;
+
+        &:hover{
+            svg{
+                background: #fff;
+                border-radius: rem(10px);
+            }
+        }
+      }
+    }
+  }
+
+  /* Bottom */
+  .footer-bottom {
+    margin-top: rem(50px);
+    padding-top: rem(20px);
+    border-top: rem(1px) solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    font-size: rem(13px);
+    color: #555;
+  }
+}

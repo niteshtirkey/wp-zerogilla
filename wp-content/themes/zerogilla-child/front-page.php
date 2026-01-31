@@ -3,7 +3,7 @@
 <main class="site-main homepage">
   <header class="site-header">
     <div class="container">
-      <div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/logo.svg" alt="Book taxi"> </div>
+      <div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="Book taxi"> </div>
 
       <nav class="nav">
         <a href="#">Business</a>
@@ -35,14 +35,14 @@
 
           <!-- BOOK -->
           <div class="service-tab active" data-tab="book">
-            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Book-1.svg" alt="Book taxi"> <span>Book</span></div>
+            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Book-1.svg" alt="Book taxi"> <span>Book</span></div>
 
             <div class="tab-body">
               <h2>Book for Now or Later</h2>
               <p>Go anywhere with Lynk - book in seconds, arrives in minutes</p>
 
               <div class="actions">
-                <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/call.svg" alt="Call now">
+                <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call.svg" alt="Call now">
                 </a>
                 <div class="info-cta">
                   <button class="primary">Book Online</button>
@@ -55,24 +55,24 @@
 
           <!-- BUSINESS -->
           <div class="service-tab" data-tab="business">
-            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Business-1.svg" alt="Business services"> <span>Business</span></div>
+            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Business-1.svg" alt="Business services"> <span>Business</span></div>
 
             <div class="tab-body">
               <h2>Reliable Travel for Employees and Guests</h2>
               <p>Save time, cut costs and manage how your business moves with Lynk Business</p>
 
               <div class="actions business-cta">
-                <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/call.svg" alt="Call now">
+                <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call.svg" alt="Call now">
                 </a>
                 <button class="outline">Learn More</button>
               </div>
-              <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></a>
+              <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow.svg" alt="Arrow icon"></a>
             </div>
           </div>
 
           <!-- DRIVER -->
           <div class="service-tab" data-tab="driver">
-            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Drive-1.svg" alt="Driver services"> <span>Driver</span></div>
+            <div class="tab-head"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Drive-1.svg" alt="Driver services"> <span>Driver</span></div>
 
             <div class="tab-body">
               <h2>One App. Thousands of High Value Passengers</h2>
@@ -81,7 +81,7 @@
 
               <div class="actions business-cta">
                 <button class="primary">Get Driver App</button>
-                <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></a>
+                <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow.svg" alt="Arrow icon"></a>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
         Call
         <a href="tel:018202020" class="call-cta__number">
           01 8 20 20 20
-          <span class="call-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/call-button.webp" alt="Call button icon"></span>
+          <span class="call-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call-button.webp" alt="Call button icon"></span>
         </a>
       </h2>
 
@@ -145,7 +145,7 @@
 
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
 
           <h3>Get the App</h3>
 
@@ -159,7 +159,7 @@
 
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/image-2.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-2.webp" alt="Call button icon">
         </div>
 
       </div>
@@ -169,11 +169,11 @@
       <div class="booking-method__content">
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/image-1.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-1.webp" alt="Call button icon">
         </div>
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
           <h3>Get the App</h3>
           <p>
             Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
@@ -192,18 +192,18 @@
       <div class="booking-method__content">
         <!-- LEFT -->
         <div class="booking-method__left">
-          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Use-the-App.svg" alt="Call button icon"></div>
+          <div class="icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Use-the-App.svg" alt="Call button icon"></div>
           <h3>Get the App</h3>
           <p>
             Book on the go with the Lynk Taxi App. Book in a tap, track your taxi
             and add a card for effortless contactless payments.
           </p>
-          <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/call.svg" alt="Call now">
+          <a href="#" class="call"><strong><span style="font-style: italic;">Call</span> <span style="color: blue;">01 8 20 20 20 </span></strong><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/call.svg" alt="Call now">
           </a>
         </div>
         <!-- RIGHT -->
         <div class="booking-method__right">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/image.webp" alt="Call button icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image.webp" alt="Call button icon">
         </div>
       </div>
     </div>
@@ -215,6 +215,8 @@
         <span>Multiple</span> ways to travel
       </h2>
 
+
+      
       <div class="slider-controls">
         <button class="arrow prev">‹</button>
         <button class="arrow next">›</button>
@@ -306,7 +308,7 @@
 
         <div class="office-app__actions">
           <a href="#" class="btn-primary">Contact Us</a>
-          <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/w-arrow.png" alt="Arrow icon"></a>
+          <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/w-arrow.webp" alt="Arrow icon"></a>
         </div>
       </div>
 
@@ -314,7 +316,7 @@
       <div class="office-app__visual">
         <div class="blob"></div>
 
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Save_Time_3.webp" alt="Call button icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Save_Time_3.webp" alt="Call button icon">
       </div>
 
     </div>
@@ -345,7 +347,7 @@
             <li>Account Manager</li>
           </ul>
 
-          <a class="business-btn" href="#"><span> Learn more</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></a>
+          <a class="business-btn" href="#"><span> Learn more</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow.svg" alt="Arrow icon"></a>
         </div>
 
         <!-- RIGHT IMAGE -->
@@ -374,19 +376,19 @@
       <div class="solutions__cards">
 
         <div class="solution-card">
-          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Corporate.webp" alt="Corporate icon"></div>
+          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Corporate.webp" alt="Corporate icon"></div>
           <h3>Corporate</h3>
           <p>Business trips & events.</p>
         </div>
 
         <div class="solution-card">
-          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Healthcare.webp" alt="Healthcare icon"></div>
+          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Healthcare.webp" alt="Healthcare icon"></div>
           <h3>Healthcare</h3>
           <p>Dedicated patient & carer transportation.</p>
         </div>
 
         <div class="solution-card">
-          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/Hospitality.webp" alt="Hospitality icon"></div>
+          <div class="icon"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Hospitality.webp" alt="Hospitality icon"></div>
           <h3>Hospitality</h3>
           <p>Guest & client booking.</p>
         </div>
@@ -397,7 +399,7 @@
       <div class="solutions__cta">
         <a href="#" class="pill-cta">
           <span class="pill-cta__text">Learn more</span>
-          <span class="pill-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/btn-right.svg" alt="Arrow icon">
+          <span class="pill-cta__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/btn-right.svg" alt="Arrow icon">
         </a>
 
       </div>
@@ -410,55 +412,55 @@
 
       <!-- ORIGINAL LOGOS -->
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s1.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s2.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s3.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s4.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s5.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s6.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s7.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s8.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="s1 icon">
       </div>
 
       <!-- DUPLICATE (IMPORTANT) -->
 
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s1.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s1.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s2.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s2.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s3.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s3.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s4.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s4.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s5.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s5.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s6.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s6.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s7.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s7.webp" alt="s1 icon">
       </div>
       <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/s8.webp" alt="s1 icon">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/s8.webp" alt="s1 icon">
       </div>
 
     </div>
@@ -479,7 +481,7 @@
 
       <div class="drivers-cta__actions">
         <a href="#" class="call-cta__btn">Get the App</a>
-        <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></a>
+        <a class="business-btn" href="#"><span> Contact Us</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow.svg" alt="Arrow icon"></a>
       </div>
 
     </div>
@@ -552,7 +554,7 @@
             </li>
             <li class="driver-cta">
               <button class="primary">Get Driver App</button>
-              <a class="business-btn" href="#"><span> Learn more</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></a>
+              <a class="business-btn" href="#"><span> Learn more</span> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow.svg" alt="Arrow icon"></a>
             </li>
 
           </ul>
@@ -671,13 +673,65 @@
 
     <!-- ARROWS -->
     <div class="slider-arrows">
-      <button class="arrow prev"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/left-arrow.svg" alt="Arrow icon"></button>
-      <button class="arrow next"><img src="<?php echo get_stylesheet_directory_uri(); ?>/app/images/arrow.svg" alt="Arrow icon"></button>
+      <button class="arrow prev"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/left-arrow.svg" alt="Arrow icon"></button>
+      <button class="arrow next"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/right-arrow.svg" alt="Arrow icon"></button>
     </div>
 
   </div>
 </section>
 
+<section class="ly-app-scanner" id="ly-app-scanner">
+  <div class="ly-app-scanner__inner">
+
+    <!-- Background App Screens -->
+    <div class="app-grid">
+      <div class="app-col">
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/10xx.webp" />
+      </div>
+      <div class="app-col">
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/5xx-1.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/2xx-1.webp" />
+      </div>
+      <div class="app-col">
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+      </div>
+      <div class="app-col">
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/8-Driver-En-Route-to-Pickup-1.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+        <img src="https://www.lynk.ie/wp-content/uploads/2024/06/11xx-1-1.webp" />
+          <img src="https://www.lynk.ie/wp-content/uploads/2024/06/12xx.webp" />
+      </div>
+    </div>
+
+    <!-- Sticky QR Cards -->
+    <div class="qr-cards">
+      <a href="#" class="qr-card passenger">
+        <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Passenger-App.png" />
+        <div>
+          <h4>Lynk Passenger App</h4>
+          <p>Scan QR code to download</p>
+        </div>
+      </a>
+
+      <a href="#" class="qr-card driver">
+        <img src="https://www.lynk.ie/wp-content/uploads/2025/12/Untitled-presentation-19.png" />
+        <div>
+          <h4>Lynk Driver App</h4>
+          <p>Scan QR code to download</p>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
 
 
 </main>
@@ -691,6 +745,45 @@
       header.classList.remove('scrolled');
     }
   });
+
+jQuery(function ($) {
+  const $section = $('#ly-app-scanner');
+  const $cards = $('.qr-cards');
+
+  function syncCardsWithScroll() {
+    const winTop = $(window).scrollTop();
+    const winH = $(window).height();
+
+    const secTop = $section.offset().top;
+    const secH = $section.outerHeight();
+    const secBottom = secTop + secH;
+
+    // Only move cards while inside section
+    if (winTop + winH > secTop && winTop < secBottom) {
+      // Scroll progress inside section (0 → 1)
+      let progress =
+        (winTop + winH / 2 - secTop) / secH;
+
+      // Clamp between 0 and 1
+      progress = Math.max(0, Math.min(1, progress));
+
+      // Translate range (adjust if needed)
+      const translateY = (progress - 0.5) * 220;
+
+      $cards.css(
+        'transform',
+        `translateY(${translateY}px)`
+      );
+    }
+  }
+
+  $(window).on('scroll', syncCardsWithScroll);
+  syncCardsWithScroll(); // run on load
+});
+
+
+
+
 </script>
 
 <?php get_footer(); ?>

@@ -118,5 +118,30 @@ jQuery(document).ready(function($) {
     $('.ratings-slider').slick('slickPrev');
   });
 
+  // QR Cards scroll animation
+  function checkQRCards() {
+    const section = $('#ly-app-scanner');
+    const cards = $('.qr-cards');
+    
+    if (section.length) {
+      const sectionTop = section.offset().top;
+      const sectionBottom = sectionTop + section.outerHeight();
+      const windowTop = $(window).scrollTop();
+      const windowBottom = windowTop + $(window).height();
+      
+      // Show cards when section starts appearing and keep visible until section ends
+      if (windowTop < sectionBottom && windowBottom > sectionTop) {
+        cards.css('opacity', '1');
+      } else {
+        cards.css('opacity', '0');
+      }
+    }
+  }
+
+  $(window).on('scroll', checkQRCards);
+  checkQRCards(); // Check on load
+
+
+
   
 });
