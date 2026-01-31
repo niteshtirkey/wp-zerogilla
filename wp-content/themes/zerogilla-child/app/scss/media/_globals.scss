@@ -1,16 +1,24 @@
-@include max(d-1680) {
-  html,
-  body {
-    $rem-size: 18px;
-    font-size: $rem-size;
-  }
+@include max(d-1920) {
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: rem(1280px);
+    max-width: rem(1600px);
+    padding: 0 rem(20px);
+  }
+}
+
+@include max(d-1680) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: rem(1400px);
+    padding: 0 rem(20px);
   }
 }
 
@@ -21,7 +29,8 @@
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: rem(1240px);
+    max-width: rem(1350px);
+    padding: 0 rem(20px);
   }
 }
 

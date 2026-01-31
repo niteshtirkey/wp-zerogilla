@@ -1,14 +1,12 @@
 // _________________________________PX to REM____________________________
 @function rem($px) {
-  $rem-size: 16px;
+  $rem-size: 18px;
   @return calc($px / $rem-size) * 1rem;
-  // @return $px;
 }
 
 @function mrem($px) {
   $rem-size: 16px;
   @return calc($px / $rem-size) * 1rem;
-  // @return $px;
 }
 
 $font-size-base: 16px; // this value depend on parent div font size

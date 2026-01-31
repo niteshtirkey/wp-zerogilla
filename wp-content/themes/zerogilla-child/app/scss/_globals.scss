@@ -149,34 +149,26 @@ tldx-lmi-shadow-root {
 }
 
 @media (max-width: 1920px) {
-  html,
-  body {
-    $rem-size: 18px;
-    font-size: $rem-size;
-  }
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: rem(calc(1280px + 20px));
+    max-width: rem(1400px);
     margin: 0 auto;
+    padding: 0 rem(20px);
   }
 }
 @media (min-width: 1920px) {
-  html,
-  body {
-    $rem-size: 19px;
-    font-size: $rem-size;
-  }
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: rem(calc(1280px + 20px));
+    max-width: rem(1400px);
     margin: 0 auto;
+    padding: 0 rem(20px);
   }
 }
